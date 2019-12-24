@@ -27,7 +27,7 @@ def format_response(weather):
 
         final_str= 'City: %s \nCountry: %s \nConditions: %s \nTemperature (°C): %s' % (name, country, desc, temp)
     except:
-        final_str = 'There was a problem retrieving that information'
+        final_str = 'Error'
 
     return final_str
 
